@@ -103,7 +103,7 @@ Versions in Linux distributions:
 * [1.4.7](Release-Notes-1.4.7) (2017-10-31) - new option `chrootgroup`; config options for bootstrap; recognize DeskOS; handle network namespace in systemd container on our own
 * [1.4.6](Release-Notes-1.4.6) (2017-09-15) - separation of mock-core-configs; new command `--debug-config`; short option `-N` for `--no-cleanup-after`
 * [1.4.4](Release-Notes-1.4.4) (2017-08-22) - rename group inside of chroot from mockbuild to mock
-* [1.4.3](Release-Notes-1.4.3) (2017-08-7)
+* [1.4.3](Release-Notes-1.4.3) (2017-08-7) - macro was not escaped, useed python3, Mageia Cauldron ``releasever`` is now 7,Create ``/dev`` nodes when using nspawn
 * [1.4.2](Release-Notes-1.4.2) (2017-06-20)
 * [1.4.1](Release-Notes-1.4.1) (2017-04-26)
 * [1.3.5](Release-Notes-1.3.5) - only for EL6
